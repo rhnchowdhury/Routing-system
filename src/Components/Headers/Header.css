@@ -1,0 +1,18 @@
+nav {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  color: whitesmoke;
+  margin: 1rem;
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: yellowgreen;
+}
+nav .active {
+  color: brown;
+}
